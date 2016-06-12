@@ -1,4 +1,4 @@
-package com.Boutico.BouticoHwx;
+package com.Boutico.Boutico;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

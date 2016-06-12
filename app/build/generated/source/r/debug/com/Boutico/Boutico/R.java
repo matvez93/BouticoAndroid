@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.Boutico.BouticoHwx;
+package com.Boutico.Boutico;
 
 public final class R {
     public static final class anim {
@@ -2196,8 +2196,9 @@ containing a value of this type.
         public static final int beacon=0x7f020045;
         public static final int design_fab_background=0x7f020046;
         public static final int design_snackbar_background=0x7f020047;
-        public static final int notification_template_icon_bg=0x7f020049;
-        public static final int tiger=0x7f020048;
+        public static final int notification_template_icon_bg=0x7f02004a;
+        public static final int simons=0x7f020048;
+        public static final int tiger=0x7f020049;
     }
     public static final class id {
         public static final int action0=0x7f0c0073;
@@ -2258,12 +2259,14 @@ containing a value of this type.
         public static final int ifRoom=0x7f0c0034;
         public static final int image=0x7f0c003f;
         public static final int imageView=0x7f0c006a;
+        public static final int imageView2=0x7f0c0080;
         public static final int info=0x7f0c007e;
         public static final int item_touch_helper_previous_elevation=0x7f0c0005;
         public static final int left=0x7f0c0022;
         public static final int line1=0x7f0c0078;
         public static final int line3=0x7f0c007c;
         public static final int listMode=0x7f0c000b;
+        public static final int listView=0x7f0c0081;
         public static final int list_item=0x7f0c0041;
         public static final int media_actions=0x7f0c0076;
         public static final int middle=0x7f0c0031;
@@ -2386,7 +2389,8 @@ containing a value of this type.
         public static final int select_dialog_item_material=0x7f04002d;
         public static final int select_dialog_multichoice_material=0x7f04002e;
         public static final int select_dialog_singlechoice_material=0x7f04002f;
-        public static final int support_simple_spinner_dropdown_item=0x7f040030;
+        public static final int shop_layout=0x7f040030;
+        public static final int support_simple_spinner_dropdown_item=0x7f040031;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
@@ -2826,7 +2830,7 @@ containing a value of this type.
             0x7f01001a, 0x7f01001b, 0x7f0100be
         };
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#background}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2836,7 +2840,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2848,7 +2852,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2860,7 +2864,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2876,7 +2880,7 @@ containing a value of this type.
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2892,7 +2896,7 @@ containing a value of this type.
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2908,7 +2912,7 @@ containing a value of this type.
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2924,7 +2928,7 @@ containing a value of this type.
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2934,7 +2938,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2956,7 +2960,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2966,7 +2970,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2982,7 +2986,7 @@ containing a value of this type.
         */
         public static final int ActionBar_elevation = 24;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#height}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2998,7 +3002,7 @@ containing a value of this type.
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3012,7 +3016,7 @@ containing a value of this type.
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3022,7 +3026,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_homeAsUpIndicator = 26;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3032,7 +3036,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#icon}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3042,7 +3046,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3052,7 +3056,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3068,7 +3072,7 @@ containing a value of this type.
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3078,7 +3082,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3096,7 +3100,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3106,7 +3110,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_popupTheme = 25;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3122,7 +3126,7 @@ containing a value of this type.
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3132,7 +3136,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3146,7 +3150,7 @@ containing a value of this type.
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3156,7 +3160,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#title}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3170,7 +3174,7 @@ containing a value of this type.
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3247,7 +3251,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01000e, 0x7f01001c
         };
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#background}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -3257,7 +3261,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -3269,7 +3273,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -3279,7 +3283,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#height}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -3295,7 +3299,7 @@ containing a value of this type.
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -3305,7 +3309,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -3330,7 +3334,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01001d, 0x7f01001e
         };
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -3340,7 +3344,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -3384,7 +3388,7 @@ containing a value of this type.
         */
         public static final int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
@@ -3394,7 +3398,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
@@ -3404,7 +3408,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
@@ -3414,7 +3418,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
@@ -3424,7 +3428,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
@@ -3457,7 +3461,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppBarLayout_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#elevation}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -3473,7 +3477,7 @@ containing a value of this type.
         */
         public static final int AppBarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#expanded}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#expanded}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -3502,7 +3506,7 @@ containing a value of this type.
             0x7f010025, 0x7f010026
         };
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#layout_scrollFlags}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#layout_scrollFlags}
           attribute's value can be found in the {@link #AppBarLayout_LayoutParams} array.
 
 
@@ -3522,7 +3526,7 @@ containing a value of this type.
         */
         public static final int AppBarLayout_LayoutParams_layout_scrollFlags = 0;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#layout_scrollInterpolator}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#layout_scrollInterpolator}
           attribute's value can be found in the {@link #AppBarLayout_LayoutParams} array.
 
 
@@ -3553,7 +3557,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
@@ -3577,7 +3581,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010028
         };
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#allowStacking}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#allowStacking}
           attribute's value can be found in the {@link #ButtonBarLayout} array.
 
 
@@ -3606,7 +3610,7 @@ containing a value of this type.
             0x7f010029, 0x7f01002a
         };
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#layout_collapseMode}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#layout_collapseMode}
           attribute's value can be found in the {@link #CollapsingAppBarLayout_LayoutParams} array.
 
 
@@ -3624,7 +3628,7 @@ containing a value of this type.
         */
         public static final int CollapsingAppBarLayout_LayoutParams_layout_collapseMode = 0;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#layout_collapseParallaxMultiplier}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#layout_collapseParallaxMultiplier}
           attribute's value can be found in the {@link #CollapsingAppBarLayout_LayoutParams} array.
 
 
@@ -3680,7 +3684,7 @@ containing a value of this type.
             0x7f010036, 0x7f010037
         };
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#collapsedTitleGravity}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#collapsedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -3705,7 +3709,7 @@ containing a value of this type.
         */
         public static final int CollapsingToolbarLayout_collapsedTitleGravity = 11;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#collapsedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#collapsedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -3715,7 +3719,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#contentScrim}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#contentScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -3730,7 +3734,7 @@ containing a value of this type.
         */
         public static final int CollapsingToolbarLayout_contentScrim = 8;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#expandedTitleGravity}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#expandedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -3755,7 +3759,7 @@ containing a value of this type.
         */
         public static final int CollapsingToolbarLayout_expandedTitleGravity = 12;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#expandedTitleMargin}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#expandedTitleMargin}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -3771,7 +3775,7 @@ containing a value of this type.
         */
         public static final int CollapsingToolbarLayout_expandedTitleMargin = 1;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#expandedTitleMarginBottom}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#expandedTitleMarginBottom}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -3787,7 +3791,7 @@ containing a value of this type.
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginBottom = 5;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#expandedTitleMarginEnd}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#expandedTitleMarginEnd}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -3803,7 +3807,7 @@ containing a value of this type.
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginEnd = 4;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#expandedTitleMarginStart}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#expandedTitleMarginStart}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -3819,7 +3823,7 @@ containing a value of this type.
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#expandedTitleMarginTop}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#expandedTitleMarginTop}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -3835,7 +3839,7 @@ containing a value of this type.
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginTop = 3;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#expandedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#expandedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -3845,7 +3849,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CollapsingToolbarLayout_expandedTitleTextAppearance = 6;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#statusBarScrim}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#statusBarScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -3860,7 +3864,7 @@ containing a value of this type.
         */
         public static final int CollapsingToolbarLayout_statusBarScrim = 9;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#title}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#title}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -3874,7 +3878,7 @@ containing a value of this type.
         */
         public static final int CollapsingToolbarLayout_title = 0;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#titleEnabled}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#titleEnabled}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -3888,7 +3892,7 @@ containing a value of this type.
         */
         public static final int CollapsingToolbarLayout_titleEnabled = 13;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#toolbarId}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#toolbarId}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -3921,7 +3925,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CompoundButton_android_button = 0;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#buttonTint}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#buttonTint}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -3936,7 +3940,7 @@ containing a value of this type.
         */
         public static final int CompoundButton_buttonTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#buttonTintMode}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#buttonTintMode}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -3971,7 +3975,7 @@ containing a value of this type.
             0x7f01003a, 0x7f01003b
         };
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#keylines}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#keylines}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
@@ -3981,7 +3985,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CoordinatorLayout_keylines = 0;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#statusBarBackground}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#statusBarBackground}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
@@ -4019,7 +4023,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CoordinatorLayout_LayoutParams_android_layout_gravity = 0;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#layout_anchor}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#layout_anchor}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -4029,7 +4033,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CoordinatorLayout_LayoutParams_layout_anchor = 2;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#layout_anchorGravity}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#layout_anchorGravity}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -4058,7 +4062,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CoordinatorLayout_LayoutParams_layout_anchorGravity = 4;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#layout_behavior}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#layout_behavior}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -4072,7 +4076,7 @@ containing a value of this type.
         */
         public static final int CoordinatorLayout_LayoutParams_layout_behavior = 1;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#layout_keyline}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#layout_keyline}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -4114,7 +4118,7 @@ containing a value of this type.
             0x7f010044, 0x7f010045, 0x7f010046, 0x7f010047
         };
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#arrowHeadLength}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#arrowHeadLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4130,7 +4134,7 @@ containing a value of this type.
         */
         public static final int DrawerArrowToggle_arrowHeadLength = 4;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#arrowShaftLength}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#arrowShaftLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4146,7 +4150,7 @@ containing a value of this type.
         */
         public static final int DrawerArrowToggle_arrowShaftLength = 5;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#barLength}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#barLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4162,7 +4166,7 @@ containing a value of this type.
         */
         public static final int DrawerArrowToggle_barLength = 6;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#color}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4177,7 +4181,7 @@ containing a value of this type.
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4193,7 +4197,7 @@ containing a value of this type.
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4209,7 +4213,7 @@ containing a value of this type.
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4223,7 +4227,7 @@ containing a value of this type.
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#thickness}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4273,7 +4277,7 @@ containing a value of this type.
         */
         public static final int FloatingActionButton_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#backgroundTint}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -4288,7 +4292,7 @@ containing a value of this type.
         */
         public static final int FloatingActionButton_backgroundTint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -4308,7 +4312,7 @@ containing a value of this type.
         */
         public static final int FloatingActionButton_backgroundTintMode = 7;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#borderWidth}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#borderWidth}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -4324,7 +4328,7 @@ containing a value of this type.
         */
         public static final int FloatingActionButton_borderWidth = 5;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#elevation}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -4340,7 +4344,7 @@ containing a value of this type.
         */
         public static final int FloatingActionButton_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#fabSize}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#fabSize}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -4357,7 +4361,7 @@ containing a value of this type.
         */
         public static final int FloatingActionButton_fabSize = 3;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#pressedTranslationZ}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#pressedTranslationZ}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -4373,7 +4377,7 @@ containing a value of this type.
         */
         public static final int FloatingActionButton_pressedTranslationZ = 4;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#rippleColor}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#rippleColor}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -4417,7 +4421,7 @@ containing a value of this type.
         */
         public static final int ForegroundLinearLayout_android_foregroundGravity = 1;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#foregroundInsidePadding}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#foregroundInsidePadding}
           attribute's value can be found in the {@link #ForegroundLinearLayout} array.
 
 
@@ -4492,7 +4496,7 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -4502,7 +4506,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -4518,7 +4522,7 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -4532,7 +4536,7 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -4730,7 +4734,7 @@ containing a value of this type.
             0x7f010053
         };
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -4740,7 +4744,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -4754,7 +4758,7 @@ containing a value of this type.
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -4846,7 +4850,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -4936,7 +4940,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -5001,7 +5005,7 @@ containing a value of this type.
         */
         public static final int NavigationView_android_maxWidth = 2;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#elevation}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -5017,7 +5021,7 @@ containing a value of this type.
         */
         public static final int NavigationView_elevation = 3;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#headerLayout}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#headerLayout}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -5027,7 +5031,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int NavigationView_headerLayout = 9;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#itemBackground}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#itemBackground}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -5037,7 +5041,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int NavigationView_itemBackground = 7;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#itemIconTint}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#itemIconTint}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -5052,7 +5056,7 @@ containing a value of this type.
         */
         public static final int NavigationView_itemIconTint = 5;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#itemTextAppearance}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#itemTextAppearance}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -5062,7 +5066,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int NavigationView_itemTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#itemTextColor}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#itemTextColor}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -5077,7 +5081,7 @@ containing a value of this type.
         */
         public static final int NavigationView_itemTextColor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#menu}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#menu}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -5108,7 +5112,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -5135,7 +5139,7 @@ containing a value of this type.
             0x7f01005c
         };
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -5177,7 +5181,7 @@ containing a value of this type.
         */
         public static final int RecyclerView_android_orientation = 0;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#layoutManager}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#layoutManager}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -5191,7 +5195,7 @@ containing a value of this type.
         */
         public static final int RecyclerView_layoutManager = 1;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#reverseLayout}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#reverseLayout}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -5205,7 +5209,7 @@ containing a value of this type.
         */
         public static final int RecyclerView_reverseLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#spanCount}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#spanCount}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -5219,7 +5223,7 @@ containing a value of this type.
         */
         public static final int RecyclerView_spanCount = 2;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#stackFromEnd}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#stackFromEnd}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -5246,7 +5250,7 @@ containing a value of this type.
             0x7f010061
         };
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#insetForeground}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#insetForeground}
           attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
 
 
@@ -5271,7 +5275,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010062
         };
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#behavior_overlapTop}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#behavior_overlapTop}
           attribute's value can be found in the {@link #ScrollingViewBehavior_Params} array.
 
 
@@ -5360,7 +5364,7 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5370,7 +5374,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_closeIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5380,7 +5384,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_commitIcon = 13;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#defaultQueryHint}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#defaultQueryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5394,7 +5398,7 @@ containing a value of this type.
         */
         public static final int SearchView_defaultQueryHint = 7;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5404,7 +5408,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_goIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5418,7 +5422,7 @@ containing a value of this type.
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#layout}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5428,7 +5432,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5438,7 +5442,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_queryBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5452,7 +5456,7 @@ containing a value of this type.
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5462,7 +5466,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_searchHintIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5472,7 +5476,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_searchIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5482,7 +5486,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_submitBackground = 16;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5492,7 +5496,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_suggestionRowLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5525,7 +5529,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SnackbarLayout_android_maxWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#elevation}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -5541,7 +5545,7 @@ containing a value of this type.
         */
         public static final int SnackbarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#maxActionInlineWidth}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#maxActionInlineWidth}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -5594,7 +5598,7 @@ containing a value of this type.
         */
         public static final int Spinner_android_prompt = 1;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#popupTheme}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -5655,7 +5659,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#showText}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -5669,7 +5673,7 @@ containing a value of this type.
         */
         public static final int SwitchCompat_showText = 9;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -5683,7 +5687,7 @@ containing a value of this type.
         */
         public static final int SwitchCompat_splitTrack = 8;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -5699,7 +5703,7 @@ containing a value of this type.
         */
         public static final int SwitchCompat_switchMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -5715,7 +5719,7 @@ containing a value of this type.
         */
         public static final int SwitchCompat_switchPadding = 7;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -5725,7 +5729,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_switchTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -5741,7 +5745,7 @@ containing a value of this type.
         */
         public static final int SwitchCompat_thumbTextPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#track}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -5797,7 +5801,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010084, 0x7f010085, 0x7f010086, 0x7f010087
         };
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#tabBackground}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#tabBackground}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -5807,7 +5811,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int TabLayout_tabBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#tabContentStart}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#tabContentStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -5823,7 +5827,7 @@ containing a value of this type.
         */
         public static final int TabLayout_tabContentStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#tabGravity}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#tabGravity}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -5840,7 +5844,7 @@ containing a value of this type.
         */
         public static final int TabLayout_tabGravity = 5;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#tabIndicatorColor}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#tabIndicatorColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -5855,7 +5859,7 @@ containing a value of this type.
         */
         public static final int TabLayout_tabIndicatorColor = 0;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#tabIndicatorHeight}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#tabIndicatorHeight}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -5871,7 +5875,7 @@ containing a value of this type.
         */
         public static final int TabLayout_tabIndicatorHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#tabMaxWidth}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#tabMaxWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -5887,7 +5891,7 @@ containing a value of this type.
         */
         public static final int TabLayout_tabMaxWidth = 7;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#tabMinWidth}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#tabMinWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -5903,7 +5907,7 @@ containing a value of this type.
         */
         public static final int TabLayout_tabMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#tabMode}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#tabMode}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -5920,7 +5924,7 @@ containing a value of this type.
         */
         public static final int TabLayout_tabMode = 4;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#tabPadding}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#tabPadding}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -5936,7 +5940,7 @@ containing a value of this type.
         */
         public static final int TabLayout_tabPadding = 15;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#tabPaddingBottom}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#tabPaddingBottom}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -5952,7 +5956,7 @@ containing a value of this type.
         */
         public static final int TabLayout_tabPaddingBottom = 14;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#tabPaddingEnd}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#tabPaddingEnd}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -5968,7 +5972,7 @@ containing a value of this type.
         */
         public static final int TabLayout_tabPaddingEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#tabPaddingStart}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#tabPaddingStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -5984,7 +5988,7 @@ containing a value of this type.
         */
         public static final int TabLayout_tabPaddingStart = 11;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#tabPaddingTop}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#tabPaddingTop}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6000,7 +6004,7 @@ containing a value of this type.
         */
         public static final int TabLayout_tabPaddingTop = 12;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#tabSelectedTextColor}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#tabSelectedTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6015,7 +6019,7 @@ containing a value of this type.
         */
         public static final int TabLayout_tabSelectedTextColor = 10;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#tabTextAppearance}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#tabTextAppearance}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6025,7 +6029,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int TabLayout_tabTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#tabTextColor}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#tabTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6119,7 +6123,7 @@ containing a value of this type.
         */
         public static final int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
@@ -6175,7 +6179,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int TextInputLayout_android_textColorHint = 0;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#counterEnabled}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#counterEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -6189,7 +6193,7 @@ containing a value of this type.
         */
         public static final int TextInputLayout_counterEnabled = 5;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#counterMaxLength}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#counterMaxLength}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -6203,7 +6207,7 @@ containing a value of this type.
         */
         public static final int TextInputLayout_counterMaxLength = 6;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#counterOverflowTextAppearance}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#counterOverflowTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -6213,7 +6217,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int TextInputLayout_counterOverflowTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#counterTextAppearance}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#counterTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -6223,7 +6227,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int TextInputLayout_counterTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#errorEnabled}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#errorEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -6237,7 +6241,7 @@ containing a value of this type.
         */
         public static final int TextInputLayout_errorEnabled = 3;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#errorTextAppearance}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#errorTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -6247,7 +6251,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int TextInputLayout_errorTextAppearance = 4;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#hintAnimationEnabled}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#hintAnimationEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -6261,7 +6265,7 @@ containing a value of this type.
         */
         public static final int TextInputLayout_hintAnimationEnabled = 9;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#hintTextAppearance}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#hintTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -6529,7 +6533,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100fa, 0x7f0100fb
         };
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6539,7 +6543,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6549,7 +6553,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6559,7 +6563,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionBarSize}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6583,7 +6587,7 @@ containing a value of this type.
         */
         public static final int Theme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6593,7 +6597,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6603,7 +6607,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6613,7 +6617,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6623,7 +6627,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6633,7 +6637,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6643,7 +6647,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6653,7 +6657,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6663,7 +6667,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionButtonStyle = 49;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6673,7 +6677,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionDropDownStyle = 45;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6683,7 +6687,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6695,7 +6699,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6705,7 +6709,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6715,7 +6719,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6725,7 +6729,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6735,7 +6739,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6745,7 +6749,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6755,7 +6759,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6765,7 +6769,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6775,7 +6779,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6785,7 +6789,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6795,7 +6799,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6805,7 +6809,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6815,7 +6819,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6825,7 +6829,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6835,7 +6839,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6845,7 +6849,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6855,7 +6859,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_activityChooserViewStyle = 57;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6865,7 +6869,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_alertDialogButtonGroupStyle = 92;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6879,7 +6883,7 @@ containing a value of this type.
         */
         public static final int Theme_alertDialogCenterButtons = 93;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6889,7 +6893,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_alertDialogStyle = 91;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6911,7 +6915,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6921,7 +6925,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_autoCompleteTextViewStyle = 99;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#borderlessButtonStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#borderlessButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6931,7 +6935,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_borderlessButtonStyle = 54;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6941,7 +6945,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_buttonBarButtonStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6951,7 +6955,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_buttonBarNegativeButtonStyle = 97;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6961,7 +6965,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_buttonBarNeutralButtonStyle = 98;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6971,7 +6975,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_buttonBarPositiveButtonStyle = 96;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6981,7 +6985,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_buttonBarStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#buttonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6991,7 +6995,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_buttonStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7001,7 +7005,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_buttonStyleSmall = 101;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7011,7 +7015,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_checkboxStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7021,7 +7025,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_checkedTextViewStyle = 103;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#colorAccent}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7036,7 +7040,7 @@ containing a value of this type.
         */
         public static final int Theme_colorAccent = 84;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7051,7 +7055,7 @@ containing a value of this type.
         */
         public static final int Theme_colorButtonNormal = 88;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7066,7 +7070,7 @@ containing a value of this type.
         */
         public static final int Theme_colorControlActivated = 86;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7081,7 +7085,7 @@ containing a value of this type.
         */
         public static final int Theme_colorControlHighlight = 87;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7096,7 +7100,7 @@ containing a value of this type.
         */
         public static final int Theme_colorControlNormal = 85;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#colorPrimary}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7111,7 +7115,7 @@ containing a value of this type.
         */
         public static final int Theme_colorPrimary = 82;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7126,7 +7130,7 @@ containing a value of this type.
         */
         public static final int Theme_colorPrimaryDark = 83;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7141,7 +7145,7 @@ containing a value of this type.
         */
         public static final int Theme_colorSwitchThumbNormal = 89;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#controlBackground}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#controlBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7151,7 +7155,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_controlBackground = 90;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7167,7 +7171,7 @@ containing a value of this type.
         */
         public static final int Theme_dialogPreferredPadding = 43;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#dialogTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7177,7 +7181,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_dialogTheme = 42;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7187,7 +7191,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_dividerHorizontal = 56;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#dividerVertical}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7197,7 +7201,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_dividerVertical = 55;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7207,7 +7211,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_dropDownListViewStyle = 74;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7223,7 +7227,7 @@ containing a value of this type.
         */
         public static final int Theme_dropdownListPreferredItemHeight = 46;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#editTextBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7233,7 +7237,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_editTextBackground = 63;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#editTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7245,7 +7249,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_editTextColor = 62;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#editTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7255,7 +7259,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_editTextStyle = 104;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7265,7 +7269,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_homeAsUpIndicator = 48;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#imageButtonStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#imageButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7275,7 +7279,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_imageButtonStyle = 64;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7285,7 +7289,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_listChoiceBackgroundIndicator = 81;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7295,7 +7299,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_listDividerAlertDialog = 44;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7305,7 +7309,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_listPopupWindowStyle = 75;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7321,7 +7325,7 @@ containing a value of this type.
         */
         public static final int Theme_listPreferredItemHeight = 69;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7337,7 +7341,7 @@ containing a value of this type.
         */
         public static final int Theme_listPreferredItemHeightLarge = 71;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7353,7 +7357,7 @@ containing a value of this type.
         */
         public static final int Theme_listPreferredItemHeightSmall = 70;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7369,7 +7373,7 @@ containing a value of this type.
         */
         public static final int Theme_listPreferredItemPaddingLeft = 72;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7385,7 +7389,7 @@ containing a value of this type.
         */
         public static final int Theme_listPreferredItemPaddingRight = 73;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#panelBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7395,7 +7399,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_panelBackground = 78;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7405,7 +7409,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_panelMenuListTheme = 80;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7421,7 +7425,7 @@ containing a value of this type.
         */
         public static final int Theme_panelMenuListWidth = 79;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7431,7 +7435,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_popupMenuStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7441,7 +7445,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_popupWindowStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7451,7 +7455,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_radioButtonStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7461,7 +7465,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_ratingBarStyle = 106;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7471,7 +7475,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_searchViewStyle = 68;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#seekBarStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#seekBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7481,7 +7485,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_seekBarStyle = 107;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7491,7 +7495,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_selectableItemBackground = 52;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7501,7 +7505,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_selectableItemBackgroundBorderless = 53;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7511,7 +7515,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_spinnerDropDownItemStyle = 47;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7521,7 +7525,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_spinnerStyle = 108;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#switchStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7531,7 +7535,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_switchStyle = 109;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7541,7 +7545,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7551,7 +7555,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_textAppearanceListItem = 76;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7561,7 +7565,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_textAppearanceListItemSmall = 77;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7571,7 +7575,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_textAppearanceSearchResultSubtitle = 66;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7581,7 +7585,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_textAppearanceSearchResultTitle = 65;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7591,7 +7595,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7603,7 +7607,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_textColorAlertDialogListItem = 95;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7615,7 +7619,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_textColorSearchUrl = 67;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7625,7 +7629,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_toolbarNavigationButtonStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7635,7 +7639,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_toolbarStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#windowActionBar}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7649,7 +7653,7 @@ containing a value of this type.
         */
         public static final int Theme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7663,7 +7667,7 @@ containing a value of this type.
         */
         public static final int Theme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7677,7 +7681,7 @@ containing a value of this type.
         */
         public static final int Theme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7696,7 +7700,7 @@ containing a value of this type.
         */
         public static final int Theme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7715,7 +7719,7 @@ containing a value of this type.
         */
         public static final int Theme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7734,7 +7738,7 @@ containing a value of this type.
         */
         public static final int Theme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7753,7 +7757,7 @@ containing a value of this type.
         */
         public static final int Theme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7772,7 +7776,7 @@ containing a value of this type.
         */
         public static final int Theme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7791,7 +7795,7 @@ containing a value of this type.
         */
         public static final int Theme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7884,7 +7888,7 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -7898,7 +7902,7 @@ containing a value of this type.
         */
         public static final int Toolbar_collapseContentDescription = 19;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -7908,7 +7912,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_collapseIcon = 18;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -7924,7 +7928,7 @@ containing a value of this type.
         */
         public static final int Toolbar_contentInsetEnd = 6;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -7940,7 +7944,7 @@ containing a value of this type.
         */
         public static final int Toolbar_contentInsetLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -7956,7 +7960,7 @@ containing a value of this type.
         */
         public static final int Toolbar_contentInsetRight = 8;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -7972,7 +7976,7 @@ containing a value of this type.
         */
         public static final int Toolbar_contentInsetStart = 5;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#logo}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -7982,7 +7986,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_logo = 4;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#logoDescription}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#logoDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -7996,7 +8000,7 @@ containing a value of this type.
         */
         public static final int Toolbar_logoDescription = 22;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8012,7 +8016,7 @@ containing a value of this type.
         */
         public static final int Toolbar_maxButtonHeight = 17;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8026,7 +8030,7 @@ containing a value of this type.
         */
         public static final int Toolbar_navigationContentDescription = 21;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8036,7 +8040,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_navigationIcon = 20;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8046,7 +8050,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_popupTheme = 9;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8060,7 +8064,7 @@ containing a value of this type.
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8070,7 +8074,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_subtitleTextAppearance = 11;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#subtitleTextColor}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#subtitleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8085,7 +8089,7 @@ containing a value of this type.
         */
         public static final int Toolbar_subtitleTextColor = 24;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#title}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8099,7 +8103,7 @@ containing a value of this type.
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8115,7 +8119,7 @@ containing a value of this type.
         */
         public static final int Toolbar_titleMarginBottom = 16;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8131,7 +8135,7 @@ containing a value of this type.
         */
         public static final int Toolbar_titleMarginEnd = 14;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8147,7 +8151,7 @@ containing a value of this type.
         */
         public static final int Toolbar_titleMarginStart = 13;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8163,7 +8167,7 @@ containing a value of this type.
         */
         public static final int Toolbar_titleMarginTop = 15;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8179,7 +8183,7 @@ containing a value of this type.
         */
         public static final int Toolbar_titleMargins = 12;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8189,7 +8193,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_titleTextAppearance = 10;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#titleTextColor}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#titleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8238,7 +8242,7 @@ containing a value of this type.
         */
         public static final int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -8254,7 +8258,7 @@ containing a value of this type.
         */
         public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -8270,7 +8274,7 @@ containing a value of this type.
         */
         public static final int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#theme}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -8303,7 +8307,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ViewBackgroundHelper_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#backgroundTint}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -8318,7 +8322,7 @@ containing a value of this type.
         */
         public static final int ViewBackgroundHelper_backgroundTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.Boutico.BouticoHwx.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.Boutico.Boutico.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 

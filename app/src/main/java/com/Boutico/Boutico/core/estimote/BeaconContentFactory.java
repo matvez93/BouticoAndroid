@@ -1,4 +1,4 @@
-package com.Boutico.BouticoHwx.estimote;
+package com.Boutico.Boutico.core.estimote;
 
 public interface BeaconContentFactory {
 

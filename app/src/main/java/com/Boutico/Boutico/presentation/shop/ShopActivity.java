@@ -1,39 +1,28 @@
-package com.Boutico.BouticoHwx;
+package com.Boutico.Boutico.presentation.shop;
 
-import android.content.ContentValues;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.Boutico.BouticoHwx.estimote.BeaconID;
-import com.Boutico.BouticoHwx.estimote.EstimoteCloudBeaconDetails;
-import com.Boutico.BouticoHwx.estimote.EstimoteCloudBeaconDetailsFactory;
-import com.Boutico.BouticoHwx.estimote.ProximityContentManager;
+import com.Boutico.Boutico.R;
+import com.Boutico.Boutico.core.estimote.BeaconID;
+import com.Boutico.Boutico.core.estimote.EstimoteCloudBeaconDetails;
+import com.Boutico.Boutico.core.estimote.EstimoteCloudBeaconDetailsFactory;
+import com.Boutico.Boutico.core.estimote.ProximityContentManager;
 import com.estimote.sdk.SystemRequirementsChecker;
 import com.estimote.sdk.cloud.model.Color;
 import database.logEnteredRegion;
 
 
-import org.json.JSONObject;
-
-import java.io.BufferedReader;
-import java.io.DataOutputStream;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URL;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-import database.JSONParser;
-import database.*;
+public class ShopActivity extends AppCompatActivity {
 
-public class MainActivity extends AppCompatActivity {
-
-    private static final String TAG = "MainActivity";
+    private static final String TAG = "ShopActivity";
 
     private static final Map<Color, Integer> BACKGROUND_COLORS = new HashMap<>();
 
