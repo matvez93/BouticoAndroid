@@ -46,7 +46,14 @@ Network Trash Folder
 Temporary Items
 .apdisk
 *.name
-/.idea/
-*.bin
-/build/
-/.gradle/
+.idea/
+.gradle
+/*/local.properties
+/*/out
+/*/*/build
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
